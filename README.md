@@ -2,7 +2,7 @@
 
 This analysis is conducted using MongoDB and PyMongo to explore the establishments' ratings data.
 
-**Part 1: Database and Jupyter Notebook Set Up**
+**PART 1: DATABASE AND JUPYTER NOTEBOOK SET UP**
 
 **1. Importing Data**
 
@@ -20,7 +20,7 @@ This analysis is conducted using MongoDB and PyMongo to explore the establishmen
 
 **3. Database Confirmation**
 
-**Part 2: Update the Database**
+**PART 2: UPDATE THE DATABASE**
 
 1. Added New Restaurant
 
@@ -28,7 +28,7 @@ This analysis is conducted using MongoDB and PyMongo to explore the establishmen
 
 3. Data Type Conversions
 
-**Part 3: Exploratory Analysis**
+**PART 3: EXPLORATORY ANALYSIS**
 
 **Question 1**: Establishments with Hygiene Score Equal to 20
 
