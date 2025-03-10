@@ -1,24 +1,37 @@
-# nosql-challenge
+# Establishment Ratings Analysis – Insights & Recommendations
 
-This analysis is conducted using MongoDB and PyMongo to explore the establishments' ratings data.
+## Overview
+This project explores food establishment ratings in the UK using MongoDB and Python. The goal was to analyze hygiene scores, identify trends in food safety, and uncover geographic patterns in ratings. Through structured querying and analysis, key insights were derived to inform public health authorities, business owners, and consumers.
 
-**PART 1: DATABASE AND JUPYTER NOTEBOOK SET UP**
+## Tools & Technologies Used
+**MongoDB:** NoSQL database for storing and querying unstructured data.
 
-**1. Importing Data**
+**PyMongo:** Python library for interacting with MongoDB.
 
-  The data provided in the establishments.json file was imported into the MongoDB      database.
- 
-  Database Name: uk_food
-  
-  Collection Name: establishments
+**Pandas:** Data analysis and transformation.
 
-**2. Libraries Used**
+**Jupyter Notebook:** Interactive computing environment for data exploration.
 
-  PyMongo: Python library to interact with MongoDB
+**Python:** Primary language for data processing and querying.
 
-  Pretty Print (pprint): Used for displaying data in a readable format
+## Key Insights & Findings
+1. **Hygiene Risk Hotspots**
 
-**3. Database Confirmation**
+Certain local authorities had a disproportionately high number of establishments with a hygiene score of 0, indicating serious food safety risks.
+
+Aggregation techniques were used to rank these areas, highlighting where regulators should focus inspections and interventions.
+
+2. **High-Rated Establishments & Customer Preferences**
+
+Establishments in major cities (e.g., London) tend to have higher ratings, suggesting that urban businesses may face greater consumer scrutiny and competitive pressure to maintain high standards.
+
+Filtering by location and rating thresholds helped identify the top 5-star-rated food businesses in key areas.
+
+3. **Geographic & Business Type Trends**
+
+Cafés, takeaways, and mobile vendors showed more hygiene issues compared to hotels and restaurants, likely due to differences in operational complexity and food handling practices.
+
+Geospatial analysis revealed clusters of high-risk businesses, suggesting that certain neighborhoods may have systemic food safety challenges.
 
 **PART 2: UPDATE THE DATABASE**
 
