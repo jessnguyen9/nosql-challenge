@@ -20,17 +20,17 @@ This project explores food establishment ratings in the UK using MongoDB and Pyt
 Certain **local authorities** had a disproportionately high number of establishments with a hygiene score of 0, indicating serious food safety risks.
 
 Aggregation techniques were used to rank these areas, highlighting where regulators should focus inspections and interventions.
-	_id	count
-0	Thanet	1130
-1	Greenwich	882
-2	Maidstone	713
-3	Newham	711
-4	Swale	686
-5	Chelmsford	680
-6	Medway	672
-7	Bexley	607
-8	Southend-On-Sea	586
-9	Tendring	542
+
+| Rank | Local Authority       | Establishments with Hygiene Score 0 |
+|------|----------------------|-----------------------------------|
+| 1    | Thanet               | 1,130                             |
+| 2    | Greenwich            | 882                               |
+| 3    | Maidstone            | 713                               |
+| 4    | Newham               | 711                               |
+| 5    | Swale                | 686                               |
+| 6    | Chelmsford           | 680                               |
+| 7    | Medway               | 672          
+
 
 2. **High-Rated Establishments & Customer Preferences**
 
