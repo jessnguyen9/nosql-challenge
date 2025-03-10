@@ -29,8 +29,14 @@ Aggregation techniques were used to rank these areas, highlighting where regulat
 | 4    | Newham               | 711                               |
 | 5    | Swale                | 686                               |
 | 6    | Chelmsford           | 680                               |
-| 7    | Medway               | 672          
+| 7    | Medway               | 672                               |
+| 8    | Bexley               | 607                               |
+| 9    | Southend-On-Sea      | 586                               |
+| 10   | Tendring             | 542                               |
 
+- Thanet stands out with over 1,100 establishments at the lowest hygiene rating, suggesting a major food safety concern in the area.
+- London areas (Greenwich, Newham) show high concentrations, possibly due to dense food vendor activity and aging infrastructure.
+- Non-London areas (Chelmsford, Medway, Southend-On-Sea) also rank high, proving hygiene risks extend beyond cities.
 
 2. **High-Rated Establishments & Customer Preferences**
 
