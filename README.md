@@ -33,38 +33,26 @@ Filtering by location and rating thresholds helped identify **the top 5-star-rat
 
 Geospatial analysis revealed clusters of high-risk businesses, suggesting that certain neighborhoods may have systemic food safety challenges.
 
-**PART 2: UPDATE THE DATABASE**
+## How Was The Dataset Cleaned?
+**Duplicate Entries:** Checked for and removed duplicate records to ensure data accuracy.
 
-1. Added New Restaurant
+**Missing Values:** Certain establishments had pending ratings or missing hygiene scores, requiring careful handling to avoid bias.
 
-2. Removing Establishments in Dover
+**Inconsistent Formatting:** Some fields, like business types and addresses, contained inconsistent text values, which were standardized for analysis.
 
-3. Data Type Conversions
+**Geolocation Errors:** Longitude and latitude fields were sometimes missing or incorrect, requiring cross-referencing with local authority data.
 
-**PART 3: EXPLORATORY ANALYSIS**
+## Challenges
+**Data granularity:** Some records lacked full details (e.g., hygiene scores not yet assigned). This made it difficult to analyze trends in certain local authorities.
 
-**Question 1**: Establishments with Hygiene Score Equal to 20
+**Nested Data Structures:** MongoDB’s NoSQL format required efficient querying and data extraction to work with embedded documents.
 
-Displayed the establishments with a hygiene score equal to 20.
+## Future Improvements
+Integrate real-time updates for hygiene ratings.
 
-Converted the result to a Pandas DataFrame and displayed the first 10 rows.
+Use visualization tools (Matplotlib, Seaborn) for better trend analysis.
 
-**Question 2**: Establishments in London with RatingValue >= 4
+Develop an API for querying establishments based on dynamic filters.
 
-Displayed the establishments in London with a RatingValue greater than or equal to 4.
-
-Converted the result to a Pandas DataFrame and displayed the first 10 rows.
-
-**Question 3**: Top 5 Establishments with RatingValue of 5, Sorted by Lowest Hygiene Score
-
-Found the top 5 establishments with a RatingValue of 5.
-
-Sorted the results by the lowest hygiene score, nearest to "Penang Flavours" restaurant.
-
-Compared the geocode to find the nearest locations.
-
-**Question 4**: Number of Establishments with Hygiene Score of 0 in Each Local Authority Area
-
-Displayed the number of establishments in each Local Authority area with a hygiene score of 0.
-
-Sorted the results from highest to lowest and displayed the top ten Local Authority areas.
+## Conclusion
+This analysis leveraged MongoDB and PyMongo to explore food establishment ratings, add new businesses, and derive insights on hygiene trends. The findings can help regulators and businesses improve food safety and compliance.
