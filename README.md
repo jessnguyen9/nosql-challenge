@@ -17,19 +17,19 @@ This project explores food establishment ratings in the UK using MongoDB and Pyt
 ## Key Insights & Findings
 1. **Hygiene Risk Hotspots**
 
-Certain local authorities had a disproportionately high number of establishments with a hygiene score of 0, indicating serious food safety risks.
+Certain **local authorities** had a disproportionately high number of establishments with a hygiene score of 0, indicating serious food safety risks.
 
 Aggregation techniques were used to rank these areas, highlighting where regulators should focus inspections and interventions.
 
 2. **High-Rated Establishments & Customer Preferences**
 
-Establishments in major cities (e.g., London) tend to have higher ratings, suggesting that urban businesses may face greater consumer scrutiny and competitive pressure to maintain high standards.
+Establishments in **major cities** (e.g., London) tend to have higher ratings, suggesting that urban businesses may face greater consumer scrutiny and competitive pressure to maintain high standards.
 
-Filtering by location and rating thresholds helped identify the top 5-star-rated food businesses in key areas.
+Filtering by location and rating thresholds helped identify **the top 5-star-rated food businesses** in key areas.
 
 3. **Geographic & Business Type Trends**
 
-Cafés, takeaways, and mobile vendors showed more hygiene issues compared to hotels and restaurants, likely due to differences in operational complexity and food handling practices.
+**Cafés, takeaways, and mobile vendors** showed more hygiene issues compared to **hotels and restaurants**, likely due to differences in operational complexity and food handling practices.
 
 Geospatial analysis revealed clusters of high-risk businesses, suggesting that certain neighborhoods may have systemic food safety challenges.
 
